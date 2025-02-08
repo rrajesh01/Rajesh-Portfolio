@@ -12,6 +12,7 @@ body {
     color: #333;
 }
 
+
 .profile-container {
     display: flex;
     align-items: center;
@@ -133,6 +134,44 @@ section h2 {
     text-decoration: underline;
 }
 
+.query-box {
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    max-width: 600px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .query-box h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+  
+  .query-box input, 
+  .query-box textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .query-box button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .query-box button:hover {
+    background-color: #0056b3;
+  }
 .social-links {
     display: flex;
     justify-content: center;
@@ -154,6 +193,8 @@ section h2 {
 .social-links i {
     margin-right: 0.5rem;
 }
+
+
 
 .resume-section {
   display: flex; 
