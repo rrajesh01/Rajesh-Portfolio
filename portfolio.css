@@ -156,6 +156,8 @@ section h2 {
 }
 
 .resume-section {
+  text-align: center; 
+  width: fit-content;
   margin: 20px 0;
 }
 
