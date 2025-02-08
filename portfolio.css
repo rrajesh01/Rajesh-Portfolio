@@ -155,6 +155,27 @@ section h2 {
     margin-right: 0.5rem;
 }
 
+.resume-section {
+  margin: 20px 0;
+}
+
+.portfolio-footer {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 1rem;
+  color: #555;
+}
+
+.portfolio-footer a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.portfolio-footer a:hover {
+  text-decoration: underline;
+}
+
+
 /* Footer */
 footer {
     text-align: center;
